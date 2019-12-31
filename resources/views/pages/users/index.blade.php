@@ -5,7 +5,9 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">List of users</div>
+                    <div class="card-header">List of users
+                    <a href="{{route('invite_view')}}" class="btn btn-success float-right ">Invite</a>
+                    </div>
 
                     <div class="card-body">
                         <table class="table">

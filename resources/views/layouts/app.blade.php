@@ -76,6 +76,11 @@
         </nav>
 
         <main class="py-4">
+            @if(session()->has('success'))
+                <div class="alert alert-success" role="alert">
+                    {{session()->get('success')}}
+                </div>
+                @endif
             @yield('content')
         </main>
     </div>
